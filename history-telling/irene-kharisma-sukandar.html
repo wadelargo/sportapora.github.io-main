@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>History Telling - Irene Kharisma Sukandar | Sportapora</title>
+
+    <link rel="shortcut icon" href="../img/logo/logo.png" type="image/x-icon" />
+    <link href="../dist/output.css" rel="stylesheet" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WP6KXLM9RH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-WP6KXLM9RH");
+    </script>
+  </head>
+  <body class="antialiased bg-[#000] text-white">
+    <!--    Navbar-->
+    <nav class="bg-[#F1EFE7] sticky top-0 border-gray-200">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img
+            src="../img/logo/logo.png"
+            class="w-[140px]"
+            alt="Sportapora Logo"
+          />
+        </a>
+        <div class="flex md:order-2">
+          <button
+            type="button"
+            data-collapse-toggle="navbar-search"
+            aria-controls="navbar-search"
+            aria-expanded="false"
+            class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1"
+          >
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 20 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+              />
+            </svg>
+            <span class="sr-only">Search</span>
+          </button>
+          <div class="relative hidden md:block">
+            <div
+              class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+            >
+              <svg
+                class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
+              <span class="sr-only">Search icon</span>
+            </div>
+            <input
+              type="text"
+              id="search-navbar"
+              class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Search..."
+            />
+          </div>
+          <button
+            data-collapse-toggle="navbar-search"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-search"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-search"
+        >
+          <div class="relative mt-3 md:hidden">
+            <div
+              class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+            >
+              <svg
+                class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
+            </div>
+            <input
+              type="text"
+              id="search-navbar"
+              class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Search..."
+            />
+          </div>
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-[#F1EFE7] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-[#F1EFE7]"
+          >
+            <li>
+              <a
+                href="/"
+                class="block py-2 px-3 text-gray-900 rounded md:bg-transparent hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >Sportapora</a
+              >
+            </li>
+            <li>
+              <a
+                href="/sportanews"
+                class="block py-2 px-3 text-gray-900 rounded md:bg-transparent hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >Sportanews</a
+              >
+            </li>
+            <li>
+              <a
+                href="/just-for-you"
+                class="block py-2 px-3 text-gray-900 rounded md:bg-transparent hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >Just for You</a
+              >
+            </li>
+            <li>
+              <a
+                href="/top-pick"
+                class="block py-2 px-3 text-gray-900 rounded md:bg-transparent hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >Top Pick</a
+              >
+            </li>
+            <li>
+              <a
+                href="/history-telling"
+                class="block py-2 px-3 text-white bg-blue-700 md:text-blue-700 rounded md:bg-transparent hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >History Telling</a
+              >
+            </li>
+            <li>
+              <a
+                href="/transporta"
+                class="block py-2 px-3 text-gray-900 rounded md:bg-transparent hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >Transporta</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main Content-->
+    <div class="flex flex-col px-8 lg:px-20 py-10">
+      <h1 class="text-4xl font-extrabold text-center">
+        Irene Kharisma Sukandar
+      </h1>
+
+      <div class="mt-16 flex flex-col gap-8 leading-relaxed">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <img
+            src="../img/irene-kharisma/irene-2.jpg"
+            class="w-full rounded-lg"
+            alt=""
+          />
+          <div>
+            <p class="font-normal text-justify">
+              Irene Kharisma Sukandar adalah pecatur wanita Indonesia yang
+              pertama kali memiliki gelar Women GrandMaster (WGM) dari Federasi
+              Catur Dunia (FIDE). Beliau berhasil meraih gelar WGM pada tahun
+              2009, tepatnya saat beliau masih duduk di bangku SMP. Gelar WGM
+              ini merupakan gelar tertinggi untuk pecatur kategori wanita. Maka,
+              banyak yang bertanya-tanya bagaimana awalnya GM Irene meraih
+              kesuksesannya ini bahkan di usianya yang masih muda?
+            </p>
+            <p class="font-normal text-justify mt-4">
+              Wanita kelahiran 7 April 1992 mulai bermain catur saat melihat
+              ayahnya bermain catur bersama kakak laki-lakinya. Dari situlah GM
+              Irene mulai tertarik dengan permainan catur. Seiring berjalan
+              waktu, irene sering diajak oleh ayahnya ke lapak-lapak permainan
+              catur dan mulai menang di banyak lapak. Irene mulau bersekolah di
+              sekolah Catur Utut Adianto, Bekasi. Kesuksesan mulai diraih oleh
+              Irene karena beliau berlatih selama 3-4 jam dalam sehari.
+            </p>
+            <p class="font-normal text-justify mt-4">
+              Di usia 11 tahun, Irene pun kembali menunjukkan taringnya di dunia
+              catur internasional. Tak hanya menajdi juara catur se
+              Asia-Tenggara saja, irene berhasil menjadi juara tingkat
+              internasional. Tak berhenti disitu, irene pun berhasil meraih
+              gelar sebagai Women GrandMaster pada tahun 2009 dan dilanjutkan
+              meraih gelar International Master pada tahun 2014.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-2xl font-bold text-center">INFORMASI PRIBADI</h2>
+          <div class="flex flex-col md:flex-row gap-10 align-middle mt-6">
+            <img
+              src="../img/irene-kharisma/irene-1.jpg"
+              class="w-full md:w-1/4 mb-4 rounded-lg"
+              alt="Irene Kharisma"
+            />
+            <ul class="list-none">
+              <li>Nama : Irene Kharisma Sukandar</li>
+              <li>Lahir : 7 April 1992 (31 tahun)</li>
+              <li>Asal : Jakarta</li>
+              <li>Warga Negara : Indonesia</li>
+              <li>
+                Gelar: Master Internasional (2014) ; WomanGrandmaster (2009)
+              </li>
+              <li>Olahraga : Catur</li>
+              <li>Pelatih : Kristianus Liem</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-2xl font-bold text-center">MEDALI</h2>
+          <div>
+            <h3 class="text-xl font-semibold text-yellow-400 mt-6">EMAS</h3>
+            <ul class="list-none mt-2">
+              <li>
+                ● International Chess Rapid 2013 "27th SEA Games 2013 ", Nay Pyi
+                Taw
+              </li>
+              <li>
+                ● International Chess Blitz 2013 "27th SEA Games 2013", Nay Pyi
+                Taw
+              </li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-gray-400 mt-6">PERAK</h3>
+            <ul class="list-none mt-2">
+              <li>● 2 Medali Perak pada SEA Games Vietnam 2003</li>
+              <li>● Olimpiade Catur Papan Tiga 2003, Spanyol</li>
+              <li>● Kejuaraan Catur Asia di bawah 14 tahun 2004, Singapura</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-yellow-800 mt-6">PERUNGGU</h3>
+            <ul class="list-none mt-2">
+              <li>● 26th SEA Games 2011, Indonesia</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mt-6">PRESTASI LAINNYA</h3>
+            <ul class="list-none mt-2">
+              <li>
+                ● Juara 3 Kelompok Umur (KU) 10 kejuaraan Catur ASEAN 2002,
+                Singapura
+              </li>
+              <li>
+                ● Juara 4 KU 10 tahun Kejuaraan Catur ASEAN 2003, Malaysia
+              </li>
+              <li>
+                ● Peringkat ke-9 Kejuaraan Dunia Junior di bawah 14 Tahun 2004,
+                Kreta
+              </li>
+              <li>● Peringkat ke-4 Kejuaraan Dunia Junior 2006, Georgia</li>
+              <li>● The Best Woman Player Malaysia Open 2008, Malaysia</li>
+              <li>
+                ● Juara 1 Asian Continental Chess Championship 2012, Vietnam
+              </li>
+              <li>
+                ● Juara 1 "The 5th Alexander The Great Open Championship" 2013,
+                Yunani
+              </li>
+              <li>● The Best Woman Player Grand Europe Open 2013, Bulgaria</li>
+              <li>● Juara 1 Australian Women's Masters 2014, Australia</li>
+              <li>● Juara 1 Asian Continental Chess Championship 2014, Arab</li>
+            </ul>
+          </div>
+
+          <div class="flex justify-center mt-10">
+            <img
+              src="../img/irene-kharisma/irene-3.jpg"
+              class="w-full md:w-1/2 rounded-lg"
+              alt="Irene Kharisma"
+            />
+          </div>
+        </div>
+
+        <div class="flex justify-center mt-6">
+          <div class="text-center w-1/2">
+            <p class="italic">
+              &ldquo;Kalau teori dan strategi, bisa dipelajari dari buku dan
+              internet. Namun, mental hanya didapat melalui praktik, salah
+              satunya dari lapak&rdquo;
+            </p>
+            <p class="font-bold">-Irene Kharisma Sukandar-</p>
+          </div>
+        </div>
+
+        <div class="mt-20">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div>
+              <h3 class="text-xl font-bold">Leave a comment</h3>
+              <form class="w-full mt-4">
+                <div class="relative z-0 w-full mb-5 group">
+                  <input
+                    type="text"
+                    name="comment"
+                    id="comment"
+                    class="block py-2.5 px-0 w-full text-sm text-[#F1EFE7] bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                    placeholder=" "
+                  />
+                  <label
+                    for="comment"
+                    class="peer-focus:font-medium absolute text-sm text-gray-300 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                    >Your comment</label
+                  >
+                </div>
+
+                <button
+                  type="button"
+                  id="submit"
+                  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none mt-4"
+                >
+                  Submit
+                </button>
+              </form>
+
+              <div class="mt-10">
+                <h3 class="text-xl font-bold">Top Comments</h3>
+                <div class="flex flex-col gap-6 mt-6" id="comments"></div>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-xl font-bold">Like this post?</h3>
+              <div class="flex flex-row items-center gap-2 mt-4">
+                <button
+                  type="button"
+                  id="like"
+                  class="text-[#F1EFE7] border border-[#F1EFE7] hover:bg-[#F1EFE7] hover:text-[#000] focus:outline-none font-medium rounded-lg text-sm px-10 flex flex-row items-center gap-2 justify-center py-2.5 text-center me-2 transition-all ease-in-out duration-150"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-thumbs-up"
+                  >
+                    <path d="M7 10v12" />
+                    <path
+                      d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z"
+                    />
+                  </svg>
+                  Like
+                </button>
+                <p>: <span id="likeCount"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div
+      class="bg-[#F1EFE7] flex flex-col lg:flex-row px-8 lg:px-20 pb-4 lg:pb-0 justify-between items-center"
+    >
+      <img src="../img/logo/logo.png" alt="Sportapora" class="w-[200px]" />
+      <div class="font-semibold lg:text-end text-[#000] space-y-1">
+        <div class="flex flex-row items-center gap-6">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-mail"
+          >
+            <rect width="20" height="16" x="2" y="4" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+          <p>redaksi@sportapora.com</p>
+        </div>
+        <div class="flex flex-row items-center gap-6">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-instagram"
+          >
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+          </svg>
+          <p>@sportapora</p>
+        </div>
+        <div class="flex flex-row items-center gap-6">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-phone"
+          >
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+            />
+          </svg>
+          <p>contact person: 0812 0987 6543</p>
+        </div>
+      </div>
+      <h6 class="font-semibold lg:text-end text-[#000] mt-10 lg:mt-0">
+        Copyright &copy; 2023 Sportapora
+      </h6>
+    </div>
+
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/submitComment.js"></script>
+    <script src="/js/countLikes.js"></script>
+  </body>
+</html>
